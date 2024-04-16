@@ -1,0 +1,111 @@
+body {
+    background-image: url('images/l.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #333;
+}
+
+img {
+     border-radius: 50%;
+     margin-top: 70px;
+     
+}
+
+/* Navbar */
+.navbar {
+    background-color: #032c55 !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+
+/* Section Headers */
+h2 {
+    color: #1363b9;
+}
+
+/* Portfolio Item Cards */
+.card {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+#navbarNav{
+    padding: 5px;
+}
+.grid1{
+    display: flex;
+}
+.grid11{
+    margin-left: 200px;
+    margin-top: 80px;
+}
+.btn{
+    margin-left: 85px;
+    margin-top: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.icons{
+    margin-left: 180px;
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+}
+/* Custom CSS for Contact Form */
+#contactForm {
+max-width: 400px;
+margin: auto;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+label {
+font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button[type="submit"] {
+width: 50%;
+padding: 10px;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+background-color: #007bff;
+color: #fff;
+}
+
+button[type="submit"]:hover {
+background-color: #0056b3;
+}
